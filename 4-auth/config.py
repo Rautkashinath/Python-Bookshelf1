@@ -1,23 +1,3 @@
-# Copyright 2015 Google Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-"""
-This file contains all of the configuration values for the application.
-Update this file with the values for your specific Google Cloud project.
-You can create and manage projects at https://console.developers.google.com
-"""
-
 import os
 
 # The secret key is used by Flask to encrypt session cookies.
@@ -34,7 +14,7 @@ DATA_BACKEND = 'datastore'
 
 # Google Cloud Project ID. This can be found on the 'Overview' page at
 # https://console.developers.google.com
-PROJECT_ID = 'your-project-id'
+PROJECT_ID = 'ultra-ridge-191703'
 
 # CloudSQL & SQLAlchemy configuration
 # Replace the following values the respective values of your Cloud SQL
@@ -92,7 +72,7 @@ MONGO_URI = 'mongodb://user:password@host:27017/database'
 #
 # You can adjust the max content length and allow extensions settings to allow
 # larger or more varied file types if desired.
-CLOUD_STORAGE_BUCKET = 'your-bucket-name'
+CLOUD_STORAGE_BUCKET = 'staging.ultra-ridge-191703.appspot.com'
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
@@ -108,5 +88,5 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 # If you receive a invalid redirect URI error review you settings to ensure
 # that the current URI is allowed.
 GOOGLE_OAUTH2_CLIENT_ID = \
-    'your-client-id'
-GOOGLE_OAUTH2_CLIENT_SECRET = 'your-client-secret'
+    '220524396036-uceb6fsn1o9leet8gne6f5kqoeilndf8.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'XKNee-cbNLkT_zoYNMdtNvBQ'
