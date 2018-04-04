@@ -14,18 +14,18 @@ DATA_BACKEND = 'datastore'
 
 # Google Cloud Project ID. This can be found on the 'Overview' page at
 # https://console.developers.google.com
-PROJECT_ID = 'ultra-ridge-191703'
+PROJECT_ID = 'bookshelf-200118'
 
 # CloudSQL & SQLAlchemy configuration
 # Replace the following values the respective values of your Cloud SQL
 # instance.
 CLOUDSQL_USER = 'root'
-CLOUDSQL_PASSWORD = 'your-cloudsql-password'
+CLOUDSQL_PASSWORD = 'RAut@123'
 CLOUDSQL_DATABASE = 'bookshelf'
 # Set this value to the Cloud SQL connection name, e.g.
 #   "project:region:cloudsql-instance".
 # You must also update the value in app.yaml.
-CLOUDSQL_CONNECTION_NAME = 'your-cloudsql-connection-name'
+CLOUDSQL_CONNECTION_NAME = 'bookshelf-200118:us-central1:myinstance'
 
 # The CloudSQL proxy is used locally to connect to the cloudsql instance.
 # To start the proxy, use:
@@ -72,7 +72,7 @@ MONGO_URI = 'mongodb://user:password@host:27017/database'
 #
 # You can adjust the max content length and allow extensions settings to allow
 # larger or more varied file types if desired.
-CLOUD_STORAGE_BUCKET = 'staging.ultra-ridge-191703.appspot.com'
+CLOUD_STORAGE_BUCKET = 'bookshelfbucket1'
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
@@ -88,5 +88,5 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 # If you receive a invalid redirect URI error review you settings to ensure
 # that the current URI is allowed.
 GOOGLE_OAUTH2_CLIENT_ID = \
-    '220524396036-uceb6fsn1o9leet8gne6f5kqoeilndf8.apps.googleusercontent.com'
-GOOGLE_OAUTH2_CLIENT_SECRET = 'XKNee-cbNLkT_zoYNMdtNvBQ'
+    '529980420197-boe0k54dgaep5lamerthpf2bkh1pvv82.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = '7poUiYLSuWAylKWm7r-RIq4E'
